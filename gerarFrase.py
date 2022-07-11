@@ -1,24 +1,13 @@
 # ler a frase original e substituir uma palavra por alguma aleatoria da lista
-
 from random import randint
 
 def gerar_frase():
     frase.clear()
     garcom = apelidos[randint(0, (len(apelidos) - 1))] #
     resto = restos[randint(0, (len(restos) - 1))]
-    # frase.insert(0, "Ô")
-    # frase.insert(1, garcom)
-    # frase.insert(2, resto)
     layout = ["Ô", garcom, resto] # você pode inserir quantos itens quiser nessa lista, basta inserir o dado na 
-    # posição que você deseja
+    # posição que você deseja que ele apareça no output
     frase.extend(layout)
-    # você pode inserir quantas posições quiser na frase, desde que tenha conteúdo pra preenche-las
-    # por exemplo
-    # posicao = 3
-    # conteudo = 'exemplo de conteudo'
-    # frase.insert(posicao, conteudo)
-    # a estrutura da frase seria: ["Ô", garcom, resto, conteudo]
-    # e o output seria (garcom e resto sao exemplos): "Ô meu rei da uma chegada aqui fazendo favor exemplo de conteudo"
     frase_nova = " ".join(frase)
     return frase_nova
 
