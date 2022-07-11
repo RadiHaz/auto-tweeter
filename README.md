@@ -1,13 +1,26 @@
 # SCRIPT DE POSTAGEM AUTOMÁTICA PARA TWITTER QUE GERA RELATÓRIO EM .TXT
-[Go to English](https://github.com/RadiHaz/twi-bot/edit/main/README.md#english)
+[~~Go to English~~](https://github.com/RadiHaz/twi-bot)
 
 ## ***Portugês Brasileiro/Brazilian Portuguese***
+
+## TL;DR/Início rápido:
+1. Tenha suas chaves da [API do Twitter](https://developer.twitter.com/en/docs/twitter-api/getting-started/getting-access-to-the-twitter-api "Documentação para iniciar com a API");
+2. Tendo as chaves, renomeie o arquivo `creds.example.py` para `creds.py` e insira elas de acordo com os nomes das CONSTANTES;
+3. No terminal, no diretório do script, execute: 
+   ```terminal 
+   $ pip install
+   ```
+4. Execute o script. Você deverá ver o seguinte output:
+
+   ```console 
+   Sleep ativado. ['1', 'Ô meu principe tem desconto se toma mais de 5?', '16:46:55']
+   ```
 
 # Sobre
 Script que utiliza uma conta do Twitter, [específica para desenvolvedores](https://developer.twitter.com/en/docs/twitter-api/getting-started/getting-access-to-the-twitter-api "Documentação para iniciar com a API"), para fazer postagens automatizadas com base em *arrays* com *strings* e temporizador entre postagens que você pode predefinir. Ao executar o script, tendo sucesso na postagem do tweet, ele gera um relatorio que é inserido no arquivo *relatorio.txt*, que contém, respectivamente: 
 1. ID do tweet (para contabilizar quantos tweets foram feitos desde a execução do script);
 2. A frase do tweet em sí; 
-3. Hora da postagem do tweet, HH:MM:SS.
+3. Hora da postagem do tweet, no formato HH:MM:SS.
 
 *Então, inicialmente, seria algo como: `1 Ô meu querido ta bem gelada essa coquinha aí em? 21:50:33`*
 
@@ -22,7 +35,7 @@ Esse script utiliza [tweepy](https://docs.tweepy.org/en/stable/ "Documentação 
 
 No diretório do script, execute no terminal:
 
-`$ pip install tweepy`
+`$ pip install`
 
 # Começando com o script
 
