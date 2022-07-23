@@ -35,7 +35,9 @@ Esse script utiliza [tweepy](https://docs.tweepy.org/en/stable/ "Documentação 
 
 No diretório do script, execute no terminal:
 
-`$ pip install`
+```terminal 
+   $ pip install
+   ```
 
 # Começando com o script
 
